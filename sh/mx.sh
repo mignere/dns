@@ -6,7 +6,7 @@ read -p "where should this domain mx record points to? (example:mail.mignere.com
 
 #user configuration file var
 db_forward=$domain
-db_reverse=$domain.rev
+db_reverse=db.rev
 
 #adding mx record
 echo "$domain.	IN	MX 10	$point." >> /etc/bind/$db_forward
