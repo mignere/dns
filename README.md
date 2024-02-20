@@ -10,10 +10,13 @@ mignere's bind9 little automation
 
 4.1.setup
 =this mode will install bind9 package, setup the domain you want to use, the forward lookup zone, reverse lookup zone, named.local.conf, and named.conf.options
+
 4.2.domain
 =this mode will add another domain under the same reverse zone config as the one you made using setup mode.
+
 4.3.subdomain
 =this mode enable you to add a subdomain for a domain that you prompt
+
 4.4.mx
 =this mode will create an mx record for a domain that you prompt
     
