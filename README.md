@@ -11,5 +11,6 @@ mignere's bind9 little automation
     this mode enable you to add a subdomain for a domain that you prompt
   4.mx
     this mode will create an mx record for a domain that you prompt
+    
 
 
