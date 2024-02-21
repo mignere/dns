@@ -35,7 +35,7 @@ sleep 2
 apt update
 
 #installing the needed packages
-echo "installing needed packaged"
+echo "installing needed packages"
 sleep 2
 apt install bind9 bind9utils dnsutils -y
 
