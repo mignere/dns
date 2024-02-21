@@ -21,6 +21,8 @@
 
 
 
+
+**how to use :**
 1.get the zip or clone this repo only to the **home directory** of the user, or else it wont work
 
 2.the scripts must be executed with root user or user with sudo privileges
