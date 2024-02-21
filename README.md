@@ -1,6 +1,27 @@
 mignere's bind9 little automation
 
-1.clone this repo only to the **home directory** of the user, or else it wont work
+**using wget : 
+
+1. wget https://github.com/GeezThatHurts/dns/archive/Bind9.zip
+
+2. unzip Bind9.zip
+
+3. cd dns-Bind9/
+
+4. bash init.sh or ./init.sh**
+
+
+**using git clone :
+
+1. git clone https://github.com/GeezThatHurts/dns dns-Bind9/
+
+2. cd dns-Bind9/
+
+3. bash init.sh or ./init.sh**
+
+
+
+1.get the zip or clone this repo only to the **home directory** of the user, or else it wont work
 
 2.the scripts must be executed with root user or user with sudo privileges
 
@@ -22,4 +43,4 @@ mignere's bind9 little automation
     
 
 
-
+thx
