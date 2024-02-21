@@ -1,6 +1,6 @@
-mignere's bind9 little automation
+**mignere's bind9 little automation**
 
-**using wget : 
+**using wget :**
 
 1. wget https://github.com/GeezThatHurts/dns/archive/Bind9.zip
 
@@ -8,10 +8,10 @@ mignere's bind9 little automation
 
 3. cd dns-Bind9/
 
-4. bash init.sh or ./init.sh**
+4. bash init.sh or ./init.sh
 
 
-**using git clone :
+**using git clone :**
 
 1. git clone https://github.com/GeezThatHurts/dns dns-Bind9/
 
