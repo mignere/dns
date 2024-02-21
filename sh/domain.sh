@@ -22,11 +22,13 @@ db_reverse=db.rev
 
 #creating your configuration file
 echo "creating your configuration file"
+sleep 2
 cp /etc/bind/db.local /etc/bind/$db_forward
 sed -n '10,13p' /etc/bind/named.conf.default-zones >> /etc/bind/named.conf.local
 
 #editing your config
 echo "editing your configuration"
+sleep 2
 #db forward lookup zone
 sed -i 's/localhost/'$domain'/g' /etc/bind/$db_forward
 sed -i 's/127.0.0.1/'$ip'/g' /etc/bind/$db_forward
@@ -39,8 +41,10 @@ sed -i 's/db.local/'$db_forward'/g' /etc/bind/named.conf.local
 
 #restarting bind9
 echo "restarting bind9"
+sleep 2
 systemctl restart bind9
 
 #done
 echo "congrats, domain $domain has been successfully added."
+sleep 1
 echo "sasuga mignere san :33333"
