@@ -8,16 +8,19 @@ if [ "$ans" = "setup" ]
 #setup
 then
  echo "starting the setup"
+ sleep 2
  bash ~/dns-Bind9/sh/install-en.sh
 #domain
 elif [ "$ans" = "domain" ]
 then
  echo "adding new domain"
+ sleep 2
  bash ~/dns-Bind9/sh/domain.sh
 #subdomain
 elif [ "$ans" = "subdomain" ]
 then
  echo "adding a subdomain"
+ sleep 2
  bash ~/dns-Bind9/sh/sub.sh
 #mx
 elif [ "$ans" = "mx" ]
