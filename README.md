@@ -8,7 +8,7 @@
 
 3. cd dns-Bind9/
 
-4. bash init.sh or ./init.sh
+4. bash init.sh
 
 
 **using git clone :**
@@ -17,7 +17,7 @@
 
 2. cd dns-Bind9/
 
-3. bash init.sh or ./init.sh**
+3. bash init.sh
 
 
 
