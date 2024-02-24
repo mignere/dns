@@ -3,11 +3,8 @@
 #getting the information
 read -p "which domain do you want to add a subdomain? : " domain
 read -p "please input the full ip address of the domain : " ip
-ip_reverse_raw="${ip#192.}"
-echo "this is your raw reverse ip : $ip_reverse_raw "
-sleep 2
 
-read -p "please input the reversed ip, example = 168.1.2 = 2.1.168 : " ip_reverse
+ip_reverse=$(echo $ip | awk -F '.' '{print $4"."$3"."$2}')
 echo "this is your reversed ip : $ip_reverse"
 sleep 2
 
