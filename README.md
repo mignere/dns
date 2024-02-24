@@ -2,7 +2,7 @@
 
 **using wget :**
 
-1. wget https://github.com/GeezThatHurts/dns/archive/Bind9.zip
+1. wget https://github.com/mignere/dns/archive/Bind9.zip
 
 2. unzip Bind9.zip
 
@@ -13,7 +13,7 @@
 
 **using git clone :**
 
-1. git clone https://github.com/GeezThatHurts/dns dns-Bind9/
+1. git clone https://github.com/mignere/dns dns-Bind9/
 
 2. cd dns-Bind9/
 
@@ -46,6 +46,9 @@
 
 4.4.mx
 =this mode will create an mx record for a domain that you prompt
+
+4.5.reset
+=this mode will reset all the configuration you have made
     
 
 
