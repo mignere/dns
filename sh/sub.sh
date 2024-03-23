@@ -2,7 +2,7 @@
 
 #getting the information
 read -p "which domain do you want to add a subdomain? : " domain
-read -p "please input the full ip address of the domain : " ip
+ip=$(dig +short $domain)
 
 ip_reverse=$(echo $ip | awk -F '.' '{print $4"."$3"."$2}')
 echo "this is your reversed ip : $ip_reverse"
